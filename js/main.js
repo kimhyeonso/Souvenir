@@ -54,7 +54,7 @@ const formatPrice = (price) => `${price.toLocaleString("ko-KR")}원`;
 
 const getCategoryFromPath = () => {
   const pageName = window.location.pathname.split("/").pop().replace(".html", "");
-  return categoryData[pageName] ? pageName : state.currentCategory;
+  return categoryData[pageName] ? pageName : null;
 };
 
 const renderProducts = (category) => {
@@ -118,8 +118,12 @@ const loadProducts = async () => {
     }
 
     state.products = await response.json();
-    state.currentCategory = getCategoryFromPath();
-    renderCategory(state.currentCategory);
+    const currentCategory = getCategoryFromPath();
+
+    if (currentCategory) {
+      state.currentCategory = currentCategory;
+      renderCategory(state.currentCategory);
+    }
   } catch (error) {
     if (productGrid) productGrid.innerHTML = `<p class="empty-message">${error.message}</p>`;
   }
