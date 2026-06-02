@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "name": "Lumiere Ring",
+    "price": 128000,
+    "category": "accessories",
+    "description": "얇은 골드 라인이 손끝에 은은한 빛을 더하는 데일리 링",
+    "image": "https://img.magnific.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509232.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Pearl Drop Earring",
+    "price": 96000,
+    "category": "accessories",
+    "description": "작은 진주 포인트로 얼굴선을 맑게 밝혀주는 이어링",
+    "image": "https://img.magnific.com/premium-photo/model-demonstrating-earrings-pearl-necklace-ring_559218-369.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Essential Necklace",
+    "price": 142000,
+    "category": "accessories",
+    "description": "절제된 펜던트와 가는 체인이 어우러진 기본 목걸이",
+    "image": "https://img.magnific.com/premium-photo/model-demonstrating-earrings-pearl-necklace-ring_559218-379.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Line Bracelet",
+    "price": 118000,
+    "category": "accessories",
+    "description": "손목 위에 가볍게 머무는 미니멀 골드 브레이슬릿",
+    "image": "https://img.magnific.com/premium-photo/elegant-emerald-gold-jewelry-set-woman-white_1162575-1365.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Promise Wedding Band",
+    "price": 368000,
+    "category": "anniversary",
+    "description": "부드러운 곡선으로 오래 착용하기 좋은 클래식 웨딩 밴드",
+    "image": "https://img.magnific.com/free-photo/beautiful-wedding-rings-newlyweds_8353-9601.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Couple Signature Ring",
+    "price": 298000,
+    "category": "anniversary",
+    "description": "서로 다른 너비의 링에 같은 결을 담은 커플 시그니처",
+    "image": "https://img.magnific.com/free-photo/wedding-rings-with-engraving-creamy-ribbon-perfume-white-flowers_8353-11282.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Memory Stone Necklace",
+    "price": 188000,
+    "category": "anniversary",
+    "description": "기념일의 탄생석을 선택해 완성하는 맞춤형 목걸이",
+    "image": "https://img.magnific.com/free-photo/wedding-bride-holding-pink-flower-bouquet_8353-6094.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Gold Letter Charm",
+    "price": 86000,
+    "category": "anniversary",
+    "description": "이니셜과 날짜를 담아 선물하기 좋은 작은 참 장식",
+    "image": "https://img.magnific.com/premium-photo/couple-is-posing-picture-with-their-hands-around-each-other_964739-19213.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Aries Star Pendant",
+    "price": 132000,
+    "category": "zodiac",
+    "description": "양자리의 선명한 에너지를 작은 별 조각으로 표현한 펜던트",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/077/230622000268077.jpg?RS=440"
+  },
+  {
+    "id": 10,
+    "name": "Moon Zodiac Ring",
+    "price": 154000,
+    "category": "zodiac",
+    "description": "달빛처럼 부드러운 실루엣에 별자리 문양을 새긴 링",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/015/250929000943015.jpg?RS=440"
+  },
+  {
+    "id": 11,
+    "name": "Celestial Earring",
+    "price": 126000,
+    "category": "zodiac",
+    "description": "별과 달의 비대칭 포인트가 신비로운 무드를 만드는 이어링",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/858/260114001019858.jpg?RS=440"
+  },
+  {
+    "id": 12,
+    "name": "Birth Star Bracelet",
+    "price": 148000,
+    "category": "zodiac",
+    "description": "태어난 계절의 별자리를 손목에 담는 커스텀 브레이슬릿",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/447/231027000368447.jpg?RS=440"
+  },
+  {
+    "id": 13,
+    "name": "First Gold Ring",
+    "price": 218000,
+    "category": "baby",
+    "description": "첫 번째 생일을 기념하는 정갈한 돌반지",
+    "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Baby Initial Pendant",
+    "price": 168000,
+    "category": "baby",
+    "description": "아이의 이니셜을 작고 단정하게 담은 베이비 펜던트",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Hundred Days Charm",
+    "price": 98000,
+    "category": "baby",
+    "description": "백일의 축복을 기념하는 따뜻한 골드 참",
+    "image": "https://img.magnific.com/premium-photo/luxury-gold-diamond-jewelery_550617-84956.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Tiny Blessing Bracelet",
+    "price": 128000,
+    "category": "baby",
+    "description": "작은 손목에 맞춘 부드러운 체인의 기념 팔찌",
+    "image": "https://img.magnific.com/premium-photo/luxury-gold-diamond-jewelery_550617-84420.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Oval Gem Ring",
+    "price": 156000,
+    "category": "accessories",
+    "description": "오벌 컷 스톤이 손끝에 차분한 포인트를 주는 반지",
+    "image": "https://img.magnific.com/free-photo/hand-with-jewelry-water_23-2151992039.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Mini Hoop Earring",
+    "price": 88000,
+    "category": "accessories",
+    "description": "가볍게 착용하기 좋은 작은 골드 후프 이어링",
+    "image": "https://img.magnific.com/free-photo/luxury-jewellery-display_23-2151921941.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Layered Chain",
+    "price": 135000,
+    "category": "accessories",
+    "description": "단독으로도 레이어드로도 어울리는 얇은 체인 목걸이",
+    "image": "https://img.magnific.com/premium-photo/beautiful-woman-wearing-shiny-diamond-necklace_160204-3256.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Silk Link Bracelet",
+    "price": 124000,
+    "category": "accessories",
+    "description": "실크처럼 부드러운 라인의 링크 브레이슬릿",
+    "image": "https://img.magnific.com/free-photo/display-shiny-luxurious-golden-chain_23-2149635255.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Classic Band Ring",
+    "price": 109000,
+    "category": "accessories",
+    "description": "군더더기 없는 형태로 매일 착용하기 좋은 밴드 링",
+    "image": "https://img.magnific.com/free-photo/view-luxurious-golden-ring-felt-jewelry-display_23-2150329656.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Crystal Stud",
+    "price": 72000,
+    "category": "accessories",
+    "description": "작은 크리스털이 은은하게 빛나는 기본 스터드 귀걸이",
+    "image": "https://img.magnific.com/free-photo/elegant-gold-hoop-earrings-marble-surface_23-2151992037.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Tiny Heart Necklace",
+    "price": 119000,
+    "category": "accessories",
+    "description": "작은 하트 펜던트로 부드러운 분위기를 더한 목걸이",
+    "image": "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Wave Cuff",
+    "price": 146000,
+    "category": "accessories",
+    "description": "물결처럼 흐르는 실루엣이 돋보이는 오픈 커프",
+    "image": "https://img.magnific.com/premium-photo/gold-diamond-jewelry_550617-43708.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Eternal Couple Band",
+    "price": 326000,
+    "category": "anniversary",
+    "description": "두 사람의 약속을 심플한 골드 라인으로 표현한 커플 밴드",
+    "image": "https://img.magnific.com/premium-photo/house-interior-decoration-details-fashionable-luxurious-home-decor-styled-concept_360074-12064.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Wedding Pearl Earring",
+    "price": 172000,
+    "category": "anniversary",
+    "description": "웨딩 룩에 우아한 균형을 더하는 드롭 펄 이어링",
+    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Anniversary Pendant",
+    "price": 204000,
+    "category": "anniversary",
+    "description": "특별한 날짜를 새겨 간직할 수 있는 골드 펜던트",
+    "image": "https://img.magnific.com/free-photo/hands-bride-belt-with-diamonds_627829-11933.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Promise Bracelet",
+    "price": 158000,
+    "category": "anniversary",
+    "description": "기념일 선물로 어울리는 섬세한 체인 브레이슬릿",
+    "image": "https://img.magnific.com/free-photo/beautiful-white-khoncha-with-chocolates_140725-7640.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Vow Slim Ring",
+    "price": 238000,
+    "category": "anniversary",
+    "description": "가느다란 링 위에 작은 스톤을 더한 프로포즈 주얼리",
+    "image": "https://img.magnific.com/free-photo/wedding-rings-wedding-celebrations-accessories-decorations_78826-2282.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Love Knot Earring",
+    "price": 132000,
+    "category": "anniversary",
+    "description": "매듭 모티브로 서로의 연결을 담은 골드 이어링",
+    "image": "https://img.magnific.com/premium-photo/two-classic-gold-wedding-rings-white-satin-background-with-beautiful-pleats-string-pearl-beads-wedding-design-concept-invitation_425936-6951.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Date Stone Necklace",
+    "price": 196000,
+    "category": "anniversary",
+    "description": "기억하고 싶은 날짜의 무드를 탄생석으로 담은 목걸이",
+    "image": "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Golden Moment Cuff",
+    "price": 228000,
+    "category": "anniversary",
+    "description": "특별한 날의 스타일링을 완성하는 넓은 골드 커프",
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Taurus Earth Ring",
+    "price": 162000,
+    "category": "zodiac",
+    "description": "황소자리의 안정감을 묵직한 골드 밴드로 담은 링",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/975/241107000669975.jpg?RS=440"
+  },
+  {
+    "id": 34,
+    "name": "Gemini Twin Earring",
+    "price": 138000,
+    "category": "zodiac",
+    "description": "쌍둥이자리의 리듬을 두 개의 스톤으로 표현한 이어링",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/076/230622000268076.jpg?RS=440"
+  },
+  {
+    "id": 35,
+    "name": "Cancer Moon Necklace",
+    "price": 152000,
+    "category": "zodiac",
+    "description": "게자리의 달빛 모티브를 작고 둥근 펜던트에 담은 목걸이",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/194/241025000657194.jpg?RS=440"
+  },
+  {
+    "id": 36,
+    "name": "Leo Sun Bracelet",
+    "price": 144000,
+    "category": "zodiac",
+    "description": "사자자리의 밝은 에너지를 태양 장식으로 더한 팔찌",
+    "image": "https://img.ssgdfs.com/upload/C00001/v1/images/product/2000/852/20200311N0000349.jpg?RS=440"
+  },
+  {
+    "id": 37,
+    "name": "Virgo Line Ring",
+    "price": 128000,
+    "category": "zodiac",
+    "description": "처녀자리의 섬세함을 얇은 라인과 작은 점으로 표현한 링",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/078/230622000268078.jpg?RS=440"
+  },
+  {
+    "id": 38,
+    "name": "Libra Balance Earring",
+    "price": 136000,
+    "category": "zodiac",
+    "description": "천칭자리의 균형감을 대칭 실루엣으로 담은 귀걸이",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/079/230622000268079.jpg?RS=440"
+  },
+  {
+    "id": 39,
+    "name": "Scorpio Night Pendant",
+    "price": 166000,
+    "category": "zodiac",
+    "description": "전갈자리의 깊은 분위기를 다크 스톤 포인트로 완성한 펜던트",
+    "image": "https://img.ssgdfs.com/upload/C00001/goos/org/389/241025000657389.jpg?RS=440"
+  },
+  {
+    "id": 40,
+    "name": "Sagittarius Arrow Cuff",
+    "price": 158000,
+    "category": "zodiac",
+    "description": "사수자리의 화살 모티브를 미니멀하게 풀어낸 커프",
+    "image": "https://img.ssgdfs.com/upload/C00001/v1/images/product/2000/592/20200311N0000367.jpg?RS=440"
+  },
+  {
+    "id": 41,
+    "name": "Little Crown Ring",
+    "price": 232000,
+    "category": "baby",
+    "description": "작은 왕관 모티브로 첫 생일의 축복을 담은 돌반지",
+    "image": "https://img.magnific.com/free-photo/closeup-shot-female-putting-cute-bracelet-her-baby-s-hand_181624-24935.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Soft Pearl Earring",
+    "price": 112000,
+    "category": "baby",
+    "description": "아이와 엄마가 함께 기념하기 좋은 미니 펄 이어링",
+    "image": "https://img.magnific.com/premium-photo/little-newborn-baby-feet-portrait-photography_637279-6536.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Name Plate Necklace",
+    "price": 186000,
+    "category": "baby",
+    "description": "아이의 이름을 새겨 오래 간직할 수 있는 네임 목걸이",
+    "image": "https://img.magnific.com/free-photo/close-up-happy-mother-baby-having-fun_23-2148552494.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Baby Date Bracelet",
+    "price": 146000,
+    "category": "baby",
+    "description": "탄생일을 작은 태그에 새기는 베이비 체인 팔찌",
+    "image": "https://img.magnific.com/premium-photo/little-girl-cross-baptism-child-selective-focus_472916-9074.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Blessing Band",
+    "price": 206000,
+    "category": "baby",
+    "description": "아이의 건강과 행복을 기원하는 심플 골드 밴드",
+    "image": "https://img.magnific.com/premium-photo/bracelet-with-baby-name-olivia-hands-white-fluffy-background_392895-498909.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Tiny Star Stud",
+    "price": 84000,
+    "category": "baby",
+    "description": "작은 별 모양으로 귀엽고 단정한 포인트를 주는 스터드",
+    "image": "https://img.magnific.com/premium-photo/little-girl-cross-baptism-child-selective-focus_472916-9075.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 47,
+    "name": "First Memory Pendant",
+    "price": 158000,
+    "category": "baby",
+    "description": "처음의 기억을 사진처럼 간직하는 작은 골드 펜던트",
+    "image": "https://img.magnific.com/premium-photo/closeup-image-babys-hand-holding-gold-cross-necklace_965119-83835.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Warm Wish Cuff",
+    "price": 172000,
+    "category": "baby",
+    "description": "가족의 마음을 담아 선물하기 좋은 따뜻한 톤의 커프",
+    "image": "https://img.magnific.com/premium-photo/child-suffering-stomach-pain-close-up_260672-28011.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80"
+  }
+]

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Souvenir | 별자리</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Souvenir home"><span class="brand-mark">S</span><span><strong>Souvenir</strong><small>Fine Jewelry</small></span></a>
+    <input class="menu-check" id="menu-check" type="checkbox" aria-label="메뉴 열기">
+    <label class="menu-toggle" for="menu-check" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav class="gnb" aria-label="주요 메뉴">
+      <a class="nav-link" href="accessories.html">악세사리</a>
+      <a class="nav-link" href="anniversary.html">기념일</a>
+      <a class="nav-link active" href="zodiac.html">별자리</a>
+      <a class="nav-link" href="baby.html">베이비</a>
+    </nav>
+  </header>
+  <main class="page-shell">
+    <section class="hero hero-zodiac">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Written In The Stars</p>
+        <h1>당신의 계절과 <br> 별을 담은 디자인</h1>
+        <p>12가지 별자리의 상징을 모티브로 신비로운 분위기를 더한 맞춤형 컬렉션입니다.</p>
+      </div>
+    </section>
+    <section class="product-section">
+      <div class="section-heading"><p class="section-kicker">Zodiac</p><h2>별자리 컬렉션</h2></div>
+      <div id="productGrid" class="product-grid fade-in" data-category="zodiac"></div>
+    </section>
+
+    <section class="brand-story">
+      <div>
+        <p class="section-kicker">Brand Story</p>
+        <h2>나만의 우주가 <br> 고요히 빛나는 밤</h2>
+      </div>
+      <p>
+      <br>
+      내가 태어난 날의 하늘을 기억하나요? 수베니아는 당신이 태어난 순간의 고요한 우주를 미니멀한 실루엣에 담았습니다. 
+      정갈한 화이트와 블랙 위에서 나즈막히 반짝이는 골드 별자리는, 일상 속에서 나만의 특별함을 증명하는 가장 우아한 징표가 되어줄 것입니다.
+      </p>
+    </section>
+
+    <section class="instagram-section" aria-label="인스타그램 피드">
+      <div class="section-heading">
+        <p class="section-kicker">@INSTAGRAM</p>
+        <h2>Moments with Souvenir</h2>
+      </div>
+
+      <div class="custom-cursor">
+      <span class="cursor-text">GRAB</span>
+      </div>
+
+      <div class="instagram-grid">
+        <figure><img src="./image/insta_03.jpg" alt="주얼리 디스플레이"></figure>
+        <figure><img src="./image/insta_04.jpg" alt="선물용 주얼리"></figure>
+        <figure><img src="./image/insta_05.jpg" alt="골드 목걸이 스타일링"></figure>
+        <figure><img src="./image/insta_06.jpg" alt="반지 클로즈업"></figure>
+        <figure><img src="./image/insta_07.jpg" alt="주얼리 디스플레이"></figure>
+        <figure><img src="./image/insta_08.jpg" alt="선물용 주얼리"></figure>
+        <figure><img src="./image/insta_01.jpg" alt="골드 목걸이 스타일링"></figure>
+        <figure><img src="./image/insta_02.jpg" alt="반지 클로즈업"></figure>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><strong>Souvenir</strong><p>소중한 순간을 영원히 기억하는 방법</p></footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

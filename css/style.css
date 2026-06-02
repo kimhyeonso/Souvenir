@@ -1,0 +1,624 @@
+:root {
+  --black: #090909;
+  --ink: #222222;
+  --muted: #777777;
+  --line: #e8e2d7;
+  --white: #ffffff;
+  --soft: #f7f5f0;
+  --gold: #b8965a;
+  --gold-dark: #826638;
+  --header-height: 76px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--black);
+  background: var(--white);
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--header-height);
+  padding: 0 48px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  color: var(--gold-dark);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.brand strong {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.brand small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.gnb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  padding: 12px 16px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--gold-dark);
+  border-color: var(--gold);
+}
+
+.nav-link:hover {
+  transform: translateY(-1px);
+}
+
+.menu-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 1px;
+  margin: 5px auto;
+  background: var(--black);
+}
+
+.menu-check {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.page-shell {
+  min-height: 100vh;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: calc(100vh - var(--header-height) - 36px);
+  padding: 72px 48px;
+  overflow: hidden;
+  background-image: var(--hero-image);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-accessories {
+  background-image: url("https://img.magnific.com/premium-photo/luxury-ring-necklaces-white-table_752325-76284.jpg?ga=GA1.1.30223821.1780371679&semt=ais_test_b&w=740&q=80");
+}
+
+.hero-anniversary {
+  background-image: url("https://img.magnific.com/free-photo/closeup-shot-newlyweds-holding-hands-showing-wedding-rings_181624-15865.jpg?t=st=1780371964~exp=1780375564~hmac=2c9d439614af31f8ddf7f481c4c247a5b449a1bcd75f156c81b507d963f2e475&w=1060");
+}
+
+.hero-zodiac {
+  background-image: url("https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?auto=format&fit=crop&w=1800&q=85");
+}
+
+.hero-baby {
+  background-image: url("https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1800&q=85");
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.18) 58%, rgba(0, 0, 0, 0.02));
+}
+
+.hero-content {
+  position: relative;
+  width: min(760px, 100%);
+  color: var(--white);
+}
+
+.eyebrow,
+.section-kicker {
+  margin: 0 0 15px;
+  color: var(--gold);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Cormorant Garamond", "Noto Sans KR", serif;
+  font-size: clamp(38px, 7vw, 50px);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero p:last-child {
+  max-width: 660px;
+  margin: 24px 0 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.brand-story,
+.product-section,
+.instagram-section {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 92px 0;
+}
+
+.brand-story {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 72px;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand-story h2,
+.section-heading h2 {
+  margin: 0;
+  font-family: "Cormorant Garamond", "Noto Sans KR", serif;
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.brand-story > p {
+  margin: 0;
+  color: #4a4a4a;
+  font-size: 17px;
+  line-height: 1.95;
+}
+
+.section-heading {
+  margin-bottom: 34px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 42px 24px;
+  margin-bottom: 50px;
+}
+
+.product-card {
+  min-width: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 240ms ease, transform 240ms ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+}
+
+.product-image {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--soft);
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 420ms ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.045);
+}
+
+.product-meta {
+  padding: 18px 10px;
+}
+
+.product-meta h3 {
+  margin: 0 0 8px;
+  font-family: "Cormorant Garamond", "Noto Sans KR", serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.product-meta p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.product-price {
+  display: block;
+  margin-top: 12px;
+  color: var(--gold-dark);
+  font-weight: 700;
+}
+
+.instagram-section {
+  border-top: 1px solid var(--line);
+  padding: 92px 0; 
+}
+
+.instagram-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, calc((100% - (14px * 3)) / 4));
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+}
+
+.instagram-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.instagram-grid figure {
+  width: 100%; 
+  aspect-ratio: 1;
+  margin: 0;
+  overflow: hidden;
+  background: var(--soft);
+  transition: transform 240ms ease;
+}
+
+.instagram-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 420ms ease;
+}
+
+.instagram-grid figure:hover {
+  transform: translateY(-4px);
+}
+
+.instagram-grid figure:hover img {
+  transform: scale(1.055);
+}
+
+/* 🌟 커스텀 커서 기본 스타일 정의 */
+.custom-cursor {
+  position: fixed; /* 브라우저 화면 기준으로 움직이도록 설정 */
+  width: 80px;
+  height: 80px;
+  background-color: rgba(184, 150, 90, 0.9); /* 브랜드 골드 색상 반영 */
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+  /* 마우스 이벤트가 이 커서 자체에 걸려서 드래그를 방해하지 않도록 차단 (필수!) */
+  pointer-events: none; 
+  
+  /* 처음에는 숨겨두었다가 마우스가 들어오면 JS로 표시 */
+  opacity: 0;
+  transform: scale(0);
+  z-index: 999;
+  
+  /* 크기나 투명도가 바뀔 때 부드럽게 애니메이션 */
+  transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+/* 인스타 영역에 마우스가 들어와 활성화되었을 때 */
+.custom-cursor.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* 🔥 마우스를 클릭해서 드래그(Grab) 중일 때의 스타일 변경 */
+.custom-cursor.grabbing {
+  background-color: var(--black); /* 검은색으로 변경되거나 크기가 변함 */
+  transform: scale(0.85); 
+}
+
+.site-footer {
+  padding: 42px 24px 52px;
+  border-top: 1px solid var(--line);
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+
+.site-footer strong {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+}
+
+.site-footer p {
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.fade-in {
+  animation: fadeIn 420ms ease both;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 720ms ease, transform 720ms ease;
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-scale {
+  transform: translateY(28px) scale(0.97);
+}
+
+.reveal-scale.is-visible {
+  transform: translateY(0) scale(1);
+}
+
+.product-card.reveal.is-visible:hover,
+.instagram-grid figure.reveal.is-visible:hover {
+  transform: translateY(-6px);
+}
+
+.hero-content,
+.main-hero-content {
+  animation: heroContentIn 900ms ease both;
+}
+
+.hero,
+.main-hero {
+  animation: heroImageIn 1200ms ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroContentIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroImageIn {
+  from {
+    filter: saturate(0.8);
+    transform: scale(1.015);
+  }
+
+  to {
+    filter: saturate(1);
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+  }
+
+  .reveal,
+  .reveal-scale {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .site-header {
+    padding: 0 28px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --header-height: 68px;
+  }
+
+  .site-header {
+    padding: 0 18px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .gnb {
+    position: absolute;
+    top: var(--header-height);
+    right: 18px;
+    left: 18px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px;
+    border: 1px solid var(--line);
+    background: var(--white);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .gnb.open {
+    display: flex;
+  }
+
+  .menu-check:checked ~ .gnb {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+  }
+
+  .nav-link:last-child {
+    border-bottom: 0;
+  }
+
+  .hero {
+    min-height: calc(100vh - var(--header-height) - 28px);
+    padding: 54px 24px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero p:last-child {
+    font-size: 16px;
+  }
+
+  .brand-story,
+  .product-section,
+  .instagram-section {
+    width: min(100% - 36px, 1180px);
+    padding: 68px 0;
+  }
+
+  .brand-story {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .product-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .instagram-grid {
+    /* 모바일에서는 화면에 2개씩 보이도록 설정 */
+    grid-template-columns: repeat(8, calc((100% - 14px) / 2)); 
+    gap: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand small {
+    display: none;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .instagram-grid {
+    /* 더 작은 화면에서는 간격을 조금 줄임 */
+    grid-template-columns: repeat(8, calc((100% - 8px) / 2));
+    gap: 8px;
+  }
+}
